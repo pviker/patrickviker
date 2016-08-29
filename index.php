@@ -96,7 +96,7 @@
 						<h1 class="margin-top-h1">Profile</h1>
 						<div class="row">
 							<div class="col-sm-12 flex-container">
-								
+								<img href="">
 							</div>
 						</div>
 					</div> <!-- /jumbotron -->
