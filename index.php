@@ -14,6 +14,14 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 	<link rel="stylesheet" href="css/style.css">
+	
+	<style>		
+		.active a{
+			padding-top:.45em !important;
+			border-top: 2px solid white;
+			background-color: transparent !important;
+		}
+	</style>
         
 	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
@@ -22,7 +30,7 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar"  data-offset="50">
 
   	<nav class="navbar navbar-inverse navbar-fixed-top">
 	  <div class="container">
@@ -37,11 +45,12 @@
 	      </button>
 	      <a class="navbar-brand nav-link-center page-scroll" href="#about-me">PV</a>
 	    </div>
+	    
 	    <div class="collapse navbar-collapse" id="navbar-collapse">
 	      	<ul class="nav navbar-nav navbar-right">
-		        <li class="nav-link-center"><a class="page-scroll" href="#about-me" data-toggle="collapse" data-target=".in">About</a></li>
-				<li class="nav-link-center"><a class="page-scroll" href="#profile" data-toggle="collapse" data-target=".in">Profile</a></li>
-				<li class="nav-link-center"><a class="page-scroll" href="#social" data-toggle="collapse" data-target=".in">Social</a></li>
+		        <li class="nav-link-center"><a class="page-scroll" href="#about-me" >About</a></li>
+				<li class="nav-link-center"><a class="page-scroll" href="#profile" >Profile</a></li>
+				<li class="nav-link-center"><a class="page-scroll" href="#social">Social</a></li>
 			</ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -54,11 +63,11 @@
 				
 				<!-- START ABOUT-ME SECTION -->
 				<section id="about-me" class="intro-section">
-					<div class="jumbotron">
+					<div class="jumbotron jumbo-color">
 						<div class="wrap-text">
 							<div class="row">
 								<div class="col-sm-6">
-									<h1 class="margin-top-h1">About  Me</h1>
+									<h1 class="margin-top-h1 h1-font">About  Me</h1>
 								</div>
 							</div>
 							<p>
@@ -67,7 +76,7 @@
 		
 								I just graduated in May with a degree in Computer Information Technology. 
 								<img class="img-responsive img-circle right-float" 
-									src="/patrickviker/img/profilepic.jpg">
+									src="img/profilepic.jpg">
 								I have learned a great deal about computer networking and security, 
 								software development, web development, operating systems, and multiple 
 								programming/scripting languages and services. I have had a passion for web 
@@ -93,10 +102,25 @@
 				
 				<section id="profile" class="services-section">
 					<div class="jumbotron" id="profile">
-						<h1 class="margin-top-h1">Profile</h1>
+						<h1 class="margin-top-h1 h1-font">Profile</h1>
 						<div class="row">
-							<div class="col-sm-12 flex-container">
-								<img href="">
+							<div class="col-sm-6 flex-container">
+								<img src="img/learninghubthumbnail.jpg" class="img-responsive profile-img img-rounded flex-item">
+							</div>
+							<div class="col-sm-6 flex-container">
+								<img src="img/addressbook.jpg" class="img-rounded profile-img flex-item img-responsive">
+							</div>
+							<div class="col-sm-6 flex-container">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+							</div>
+							<div class="col-sm-6 flex-container">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+							</div>
+							<div class="col-sm-6 flex-container">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+							</div>
+							<div class="col-sm-6 flex-container">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
 							</div>
 						</div>
 					</div> <!-- /jumbotron -->
@@ -107,12 +131,12 @@
 				<!-- START SOCIAL SECTION -->
 				
 				<section id="social" class="about-section">
-					<div class="jumbotron">
-						<h1 class="margin-top-h1">Social</h1><br>
+					<div class="jumbotron jumbo-color">
+						<h1 class="margin-top-h1 h1-font">Social</h1><br>
 						<div class="row">
 							<div class="col-sm-12 flex-container">
-								<a href="https://www.facebook.com/pviker" target="_blank" class="text-muted flex-item"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
-								<a href="https://twitter.com/pvikerMplsMN" target="_blank" class="text-muted flex-item"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+								<a href="https://twitter.com/pvikerMplsMN" target="_blank" class="text-muted flex-item"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
+								<a href="https://www.facebook.com/pviker" target="_blank" class="text-muted flex-item"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
 								<a href="http://codepen.io/pviker/" target="_blank" class="text-muted flex-item"><i class="fa fa-codepen fa-5x" aria-hidden="true"></i></a>
 								<a href="https://github.com/pviker" target="_blank" class="text-muted flex-item"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
 								<a href="https://www.linkedin.com/in/patrickviker" target="_blank" class="text-muted flex-item"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
@@ -135,4 +159,5 @@
 
    
   </body>
+
 </html>
