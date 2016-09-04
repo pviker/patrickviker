@@ -14,14 +14,6 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 	<link rel="stylesheet" href="css/style.css">
-	
-	<style>		
-		.active a{
-			padding-top:.45em !important;
-			border-top: 2px solid white;
-			background-color: transparent !important;
-		}
-	</style>
         
 	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
@@ -43,14 +35,14 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand nav-link-center page-scroll" href="#about-me">PV</a>
+	      <a class="navbar-brand nav-link-center page-scroll nav-hover" href="#about-me">PV</a>
 	    </div>
 	    
 	    <div class="collapse navbar-collapse" id="navbar-collapse">
 	      	<ul class="nav navbar-nav navbar-right">
-		        <li class="nav-link-center"><a class="page-scroll" href="#about-me" >About</a></li>
-				<li class="nav-link-center"><a class="page-scroll" href="#profile" >Profile</a></li>
-				<li class="nav-link-center"><a class="page-scroll" href="#social">Social</a></li>
+		        <li class="nav-link-center"><a class="page-scroll nav-hover" href="#about-me" >About</a></li>
+				<li class="nav-link-center"><a class="page-scroll nav-hover" href="#profile" >Profile</a></li>
+				<li class="nav-link-center"><a class="page-scroll nav-hover" href="#contact">Contact</a></li>
 			</ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -62,7 +54,7 @@
 			<div class="container-fluid">
 				
 				<!-- START ABOUT-ME SECTION -->
-				<section id="about-me" class="intro-section">
+				<section id="about-me" class="about-me-section">
 					<div class="jumbotron jumbo-color">
 						<div class="wrap-text">
 							<div class="row">
@@ -100,27 +92,27 @@
 				
 				<!-- START PROFILE SECTION -->
 				
-				<section id="profile" class="services-section">
+				<section id="profile" class="profile-section">
 					<div class="jumbotron" id="profile">
-						<h1 class="margin-top-h1 h1-font">Profile</h1>
+						<h1 class="margin-top-h1 h1-font">Profile - Under Construction</h1>
 						<div class="row">
 							<div class="col-sm-6 flex-container">
-								<img src="img/learninghubthumbnail.jpg" class="img-responsive profile-img img-rounded flex-item">
+								<img src="img/learninghubthumbnail.jpg" class=" profile-img img-rounded flex-item">
 							</div>
 							<div class="col-sm-6 flex-container">
-								<img src="img/addressbook.jpg" class="img-rounded profile-img flex-item img-responsive">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item ">
 							</div>
 							<div class="col-sm-6 flex-container">
-								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item ">
 							</div>
 							<div class="col-sm-6 flex-container">
-								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item ">
 							</div>
 							<div class="col-sm-6 flex-container">
-								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item ">
 							</div>
 							<div class="col-sm-6 flex-container">
-								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item img-responsive">
+								<img src="img/learninghubthumbnail.jpg" class="img-rounded profile-img flex-item ">
 							</div>
 						</div>
 					</div> <!-- /jumbotron -->
@@ -128,35 +120,99 @@
 				
 				<!-- /profile section -->
 				
-				<!-- START SOCIAL SECTION -->
+				<!-- START CONTACT SECTION -->
 				
-				<section id="social" class="about-section">
+				<section id="contact" class="contact-section">
 					<div class="jumbotron jumbo-color">
-						<h1 class="margin-top-h1 h1-font">Social</h1><br>
-						<div class="row">
-							<div class="col-sm-12 flex-container">
-								<a href="https://twitter.com/pvikerMplsMN" target="_blank" class="text-muted flex-item"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
-								<a href="https://www.facebook.com/pviker" target="_blank" class="text-muted flex-item"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
-								<a href="http://codepen.io/pviker/" target="_blank" class="text-muted flex-item"><i class="fa fa-codepen fa-5x" aria-hidden="true"></i></a>
-								<a href="https://github.com/pviker" target="_blank" class="text-muted flex-item"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
-								<a href="https://www.linkedin.com/in/patrickviker" target="_blank" class="text-muted flex-item"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
-								<a href="https://www.instagram.com/pvikermplsmn/" target="_blank" class="text-muted flex-item"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>	
+						<h1 class="margin-top-h1 h1-font">Contact - Under Construction</h1><br>
+ 						<div class="row">
+ 							<div class="col-sm-12">
+ 								<form action="#">
+									<div class="form-group">
+								    	<label for="name">Name</label>
+								    	<input type="text" class="form-control" id="inputName" placeholder="Name">
+								  	</div>
+								  	<div class="form-group">
+								    	<label for="email">Email</label>
+								    	<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+								  	</div>
+								  	<div class="form-group">
+								    	<label for="inputComments">Comments</label>
+								    	<textarea class="form-control" rows="3"></textarea>
+								  	</div>
+								  	<button type="submit" class="btn btn-default">
+								  		<span class="glyphicon glyphicon-send" aria-hidden="true"></span> Submit
+								  	</button>
+								</form>
 							</div>
 						</div>
 					</div>
-				</section>
-				
-				<!-- /social section -->
-				
+				</section><!-- /social section -->
 				
 			</div> <!-- /container-fluid -->
-			<hr> <!-- dividing line -->
 		</div> <!-- /column -->
 	</div> <!-- /row -->
 	
-	<div class="text-center">Coded by Patrick Viker</div>
+	<!-- Start social media/get in touch -->
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-8 text-center">
+				<p class="strong">Get in touch</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-8 flex-container">
+				<a href="https://twitter.com/pvikerMplsMN" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://www.facebook.com/pviker" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+				  		<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://www.instagram.com/pvikermplsmn/" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+				  		<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-8 flex-container">
+				<a href="https://www.linkedin.com/in/patrickviker" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+				  		<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://github.com/pviker" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+				  		<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="http://codepen.io/pviker/" target="_blank" class="text-muted flex-item intouch">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+				  		<i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div> <!-- /jumbotron -->
+	<!-- /end get in touch -->
 	
-
+	<hr> <!-- dividing line -->
+	<h5 class="text-center">Coded by Patrick Viker</h5><br>
+	
+	
    
   </body>
 

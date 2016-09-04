@@ -15,6 +15,12 @@ html {
 	border: 1px white;
 }
 
+.active a {
+	padding-top:.45em !important;
+	border-top: 2px solid white;
+	background-color: transparent !important;
+}
+
 .wrap-text {
 	text-align: justify;
 }
@@ -39,12 +45,21 @@ li.nav-link-center, a.nav-link-center {
 	font-size: 2em;
 }
 
-.jumbo-color {
-	background-color: white;
+a.intouch span:hover {
+	color: orange; 
+	transition-property: color;
+	transition-duration: 1s;
 }
 
-.jumbo-color2 {
-	
+a.nav-hover:hover {
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+.jumbo-color {
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .h1-font {
@@ -72,7 +87,8 @@ div.brand-margin {
 }
 
 .profile-img {
-	width: 70em;
+	width: 100%;
+	height: 100%;
 }	
 
 #about-me {
@@ -80,7 +96,7 @@ div.brand-margin {
 }
 
 #social {
-	background-color: white;
+/* 	background-color: white; */
 	border-radius: 0px 0px 0px 0px;
 }
 
@@ -108,35 +124,36 @@ div.brand-margin {
     }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
-.intro-section {
+.about-me-section {
+	background: #fff;
     height: 100%;
     padding-top: 100px;
-/*     text-align: center; */
-    background: #fff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.about-section {
+.profile-section {
+	background: #eee;
     height: 100%;
-/*     padding-top: 100px; */
-/*     text-align: center; */
-    background: #eee;
-}
-
-.services-section {
-    height: 100%;
-/*     padding-top: 100px; */
-/*     text-align: center; */
-    background: #fff;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .contact-section {
+    background: #fff;
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    margin-top: 0px;
+    padding-top: 50px;
 }
+
+.jumbotron{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
 
